@@ -10,7 +10,7 @@ import org.apache.catalina.startup.Tomcat;
 public class Main {
   public static void main(String[] args) {
     // Create Tomcat instance
-    Tomcat tomcat = new Tomcat();
+    Tomcat tomcat = new Tomcat(); //
     tomcat.setPort(8080); // Set server port
 
     // Ensure a base directory for Tomcat
